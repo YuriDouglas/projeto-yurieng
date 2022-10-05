@@ -22,19 +22,19 @@ body {
 }
 
 header {
-    background-image: linear-gradient(to bottom, var(--cor4), var(--cor5) );
-    min-height: 150px;
+    background-image: linear-gradient(to bottom, var(--cor4), var(--cor0) );
+    min-height: 120;
     text-align: center;
     padding-top: 20px;
-    background-image: url('../imagens/logo.jpeg');
-    background-size: 100% 100%;
-    position: center;
+    background-image: url('../imagens/favicon.ico');
+    background-repeat: no-repeat;    
+    
 }
 header > h1 {
     color: white;
     font-family: var(--fonte-destaque);
     font-size: 3em;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.568);
     font-weight: normal;
 }
@@ -42,17 +42,14 @@ header > h1 {
 header > p {
     color: white;
     font-family: var(--fonte-padrao);
-    font-size: 1.5em;
-    max-width: 600px;
-    padding-left: 10px;
-    padding-right: 10px;
+    font-size: 1em;
     margin: auto;
-    padding-bottom: 30px;
 }
 nav {
-    background-color: var(--cor3);
+    background-color: var(--cor0);
     font-family: var(--fonte-padrao);
     padding: 10px;
+    padding-top: 20px;
 }
 nav > a {
     color: var(--cor1);
@@ -64,7 +61,16 @@ nav > a {
 }
 nav > a:hover {
     background-color: var(--cor3);
-    color: var(--cor5);
+    color: white;
 }
 main{
+}
+footer{
+    width: 98vw;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: var(--cor1);
+    padding: 10px;
+    font-size: 0.8em;
 }
